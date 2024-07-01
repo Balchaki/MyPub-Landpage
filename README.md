@@ -16,10 +16,10 @@ MyPub
 🔗 url github:
 https://github.com/Balchaki/MyPub-Landpage
 
-🛬 url landpage: https://balchaki.github.io/MyPub-Landpage/
+🛬 url landpage: http://mypub.me
 
 
-🤝 url Modelo Negócio (imagem): https://balchaki.github.io/MyPub-Landpage/MyPub.png
+🤝 url Modelo Negócio (imagem): http://mypub.me/MyPub.png
 
 🗓 url Product Backlog:
 -------------------
