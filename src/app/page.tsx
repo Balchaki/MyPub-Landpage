@@ -1,6 +1,8 @@
 "use client";
 import Link from "next/link"
 import { useState, useEffect } from 'react';
+interface IconProps extends React.SVGProps<SVGSVGElement> {}
+
 
 export default function Component() {
   const [navBackground, setNavBackground] = useState('bg-transparent');
@@ -343,7 +345,7 @@ export default function Component() {
                       <textarea
                           id="message"
                           name="message"
-                          rows="4"
+                          rows={4}
                           className="border border-gray-300 rounded-md px-4 py-2 w-full focus:outline-none focus:ring focus:ring-[#f30101]"
                           placeholder="Digite sua mensagem"
                           required
@@ -420,7 +422,7 @@ export default function Component() {
   );
 }
 
-function CheckIcon(props) {
+function CheckIcon(props: IconProps) {
   return (
       <svg
           {...props}
@@ -439,7 +441,7 @@ function CheckIcon(props) {
   );
 }
 
-function FacebookIcon(props) {
+function FacebookIcon(props: IconProps) {
   return (
       <svg
           {...props}
@@ -458,7 +460,7 @@ function FacebookIcon(props) {
   );
 }
 
-function InstagramIcon(props) {
+function InstagramIcon(props: IconProps) {
   return (
       <svg
           {...props}
@@ -479,7 +481,7 @@ function InstagramIcon(props) {
   );
 }
 
-function LinkedinIcon(props) {
+function LinkedinIcon(props: IconProps) {
   return (
       <svg
           {...props}
@@ -500,7 +502,7 @@ function LinkedinIcon(props) {
   );
 }
 
-function LocateIcon(props) {
+function LocateIcon(props: IconProps) {
   return (
       <svg
           {...props}
@@ -523,7 +525,7 @@ function LocateIcon(props) {
   );
 }
 
-function MailIcon(props) {
+function MailIcon(props: IconProps) {
   return (
       <svg
           {...props}
@@ -543,7 +545,7 @@ function MailIcon(props) {
   );
 }
 
-function MenuIcon(props) {
+function MenuIcon(props: IconProps) {
   return (
       <svg
           {...props}
@@ -564,7 +566,7 @@ function MenuIcon(props) {
   );
 }
 
-function PhoneIcon(props) {
+function PhoneIcon(props: IconProps) {
   return (
       <svg
           {...props}
@@ -583,7 +585,7 @@ function PhoneIcon(props) {
   );
 }
 
-function TwitterIcon(props) {
+function TwitterIcon(props: IconProps) {
   return (
       <svg
           {...props}
@@ -602,7 +604,7 @@ function TwitterIcon(props) {
   );
 }
 
-function MonitorIcon(props) {
+function MonitorIcon(props: IconProps) {
   return (
       <svg
           {...props}
@@ -623,7 +625,7 @@ function MonitorIcon(props) {
   );
 }
 
-function TicketIcon(props) {
+function TicketIcon(props: IconProps) {
   return (
       <svg
           {...props}
@@ -645,7 +647,7 @@ function TicketIcon(props) {
   );
 }
 
-function XIcon(props) {
+function XIcon(props: IconProps) {
   return (
       <svg
           {...props}
