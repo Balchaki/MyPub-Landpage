@@ -87,7 +87,7 @@ export default function Component() {
               </div>
               <div className="relative">
                 <img
-                    src="/placeholder.svg"
+                    src="/notebook.png"
                     alt="Imagem do produto MyPub"
                     width={600}
                     height={400}
